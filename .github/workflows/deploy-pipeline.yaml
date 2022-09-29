@@ -46,7 +46,7 @@ jobs:
           path: ${{ github.sha }}.zip
           
   documentation:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     needs: lint
     steps:
       - name: checkout code
